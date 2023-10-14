@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+<div class="container">
+  <h2>30 Ejercicios JavaScript</h2>
+
+  <button  onclick="calcularAreaCuadrado(),changeColor(this)" >1. Calcular el Área de un Cuadrado</button>
+  <p id="resultado1"></p>
+
+  <button  onclick="calcularAreaCirculo(),changeColor(this)">2. Calcular el Área de un Círculo</button>
+  <p id="resultado2"></p>
+
+  <button onclick="convertirFahrenheitACelsius(),changeColor(this)">3. Convertir de Grados Fahrenheit a Celsius</button>
+  <p id="resultado3"></p>
+
+  <button onclick="sumaRestaDosNumeros(),changeColor(this)">4. Suma y resta de 2 números</button>
+  <p id="resultado4"></p>
+
+  <button onclick="encontrarMayorDosNumeros(),changeColor(this)">5. Mayor de 2 números</button>
+  <p id="resultado5"></p>
+
+  <button onclick="calcularAreaTriangulo(),changeColor(this)">6. Área de un Triángulo</button>
+  <p id="resultado6"></p>
+
+  <button onclick="encontrarMayorTresNumeros(),changeColor(this)">7. Mayor de 3 números</button>
+  <p id="resultado7"></p>
+
+  <button onclick="generarSerieNumeros(),changeColor(this)">8. Generar la serie que permite visualizar los números del 1 al 7</button>
+  <p id="resultado8"></p>
+
+  <button onclick="encontrarMayorMenorDosNumeros(),changeColor(this)">9. Mayor y Menor de 2 números distintos</button>
+  <p id="resultado9"></p>
+
+  <button onclick="encontrarMayorMenorTresNumeros(),changeColor(this)">10. Mayor y Menor de 3 números distintos</button>
+  <p id="resultado10"></p>
+
+  <button onclick="encontrarMayorMenorCuatroNumeros(),changeColor(this)">11. Mayor y Menor de 4 números distintos</button>
+  <p id="resultado11"></p>
+
+  <button onclick="sumatoria1a10(),changeColor(this)">12. Sumatoria de los números del 1 al 10</button>
+  <p id="resultado12"></p>
+
+  <button onclick="sumatoriaMultiplosDe5(),changeColor(this)">13. Sumatoria de múltiplos de 5 del 1 al 100</button>
+  <p id="resultado13"></p>
+
+  <button onclick="sumatoriaParesDel1al100(),changeColor(this)">14. Sumatoria de números pares del 1 al 100</button>
+  <p id="resultado14"></p>
+
+  <button onclick="contarImparesPrimeros300Numeros(),changeColor(this)">15. Contar impares de los primeros 300 números</button>
+  <p id="resultado15"></p>
+
+  <button onclick="calcularHipotenusaTriangulo(),changeColor(this)">16. Calcular la hipotenusa de un triángulo rectángulo</button>
+  <p id="resultado16"></p>
+
+  <button onclick="calcularAreaVolumenCilindro(),changeColor(this)">17. Calcular área y volumen de un cilindro</button>
+  <p id="resultado17"></p>
+
+  <button onclick="esParImpar(),changeColor(this)">18. Determinar si un número es par o impar</button>
+  <p id="resultado18"></p>
+
+  <button onclick="contarRangoNumeros(),changeColor(this)">19. Contar números en rangos</button>
+  <p id="resultado19"></p>
+
+  <button onclick="ordenarDosNumeros(),changeColor(this)">20. Ordenar dos números de menor a mayor</button>
+  <p id="resultado20"></p>
+
+  <button onclick="multiplosDe2(),changeColor(this)">21. Múltiplos de 2 de los primeros 10 números</button>
+  <p id="resultado21"></p>
+
+  <button onclick="calcularMinutosEn5Horas(),changeColor(this)">22. Calcular minutos en 5 horas</button>
+  <p id="resultado22"></p>
+
+  <button onclick="calcularEstacionamiento(),changeColor(this)">23. Calcular costo de estacionamiento</button>
+  <p id="resultado23"></p>
+
+  <button onclick="calcularEntradaEspectaculo(),changeColor(this)">24. Calcular costo de entrada a un espectáculo</button>
+  <p id="resultado24"></p>
+
+  <button onclick="convertirKMHaMPS(),changeColor(this)">25. Convertir kilómetros por hora a metros por segundo</button>
+  <p id="resultado25"></p>
+
+  <button onclick="calcularNotaFinal(),changeColor(this)">26. Calcular nota final con tres cortes</button>
+  <p id="resultado26"></p>
+
+  <button onclick="calcularNominaObreros(),changeColor(this)">27. Calcular nómina de obreros por horas trabajadas</button>
+  <p id="resultado27"></p>
+
+  <button onclick="calcularFactorial(),changeColor(this)">28. Calcular el factorial de un número</button>
+  <p id="resultado28"></p>
+
+  <button onclick="calcularTablaMultiplicar(),changeColor(this)">29. Calcular tabla de multiplicar del 5 hasta el 10</button>
+  <p id="resultado29"></p>
+
+  <button onclick="esPrimo(),changeColor(this)">30. Determinar si un número es primo</button>
+  <p id="resultado30"></p>
+</div>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

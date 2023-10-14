@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(../img/fondo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+}
+h2 {
+  text-align: center;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 0px #edf1f5;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #297ca1; /* Cambiamos el color cuando se hace clic */
+}
+
+button.clicked {
+  background-color: #e74c3c; /* Nuevo color de fondo cuando se hace clic */
+}
